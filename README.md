@@ -4,3 +4,5 @@ Probably contains a lot of junk and unnecessary files, but hopefully conveys the
 
 
 To run: `flutter run -d android` or similar
+Clicking the button in the UI starts scanning BL devices and creates a push notification.
+The BL scanning continues in the background if navigated away from the app, or if closed entirely. The notification doesn't seem to be persistent.
