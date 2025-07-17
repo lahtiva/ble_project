@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
 
-    [Permission.bluetooth, Permission.bluetoothScan, Permission.bluetoothConnect, Permission.location].request();
+    [Permission.bluetooth, Permission.bluetoothScan, Permission.bluetoothConnect, Permission.location, Permission.notification].request();
 
   }
 
