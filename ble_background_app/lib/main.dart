@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('BLE Background Hello')),
+        appBar: AppBar(title: Text('BLE Scan')),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
