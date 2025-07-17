@@ -1,0 +1,1 @@
+To run: `flutter run -d android` or similar
